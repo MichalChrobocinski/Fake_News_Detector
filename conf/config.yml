@@ -1,0 +1,15 @@
+paths:
+  raw_fake: "data/01_raw/Fake.csv"
+  raw_true: "data/01_raw/True.csv"
+
+  primary_train: "data/02_primary/X_train_tfidf.pkl"
+  primary_val: "data/02_primary/X_val_tfidf.pkl"
+  primary_test: "data/02_primary/X_test_tfidf.pkl"
+
+  primary_train_pred: "data/02_primary/y_train.csv"
+  primary_val_pred: "data/02_primary/y_val.csv"
+  primary_test_pred: "data/02_primary/y_test.csv"
+
+  vectorizer: "data/02_primary/tfidf_vectorizer.pkl"
+
+  model: "data/03_model/logistic_regression.pkl"
